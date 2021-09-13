@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\usa.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Telerik.Windows.Controls.for.Wpf.Trial" Version="2021.2.615" />
+    <PackageReference Include="Telerik.Windows.Controls.Input.for.Wpf.Trial" Version="2021.2.615" />
+    <PackageReference Include="Telerik.Windows.Controls.Navigation.for.Wpf.Trial" Version="2021.2.615" />
+    <PackageReference Include="Telerik.Windows.Themes.Office_Black.for.Wpf.Trial" Version="2021.2.615" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\usa.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

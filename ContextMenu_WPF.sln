@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingToDynamicData_WPF", "BindingToDynamicData\BindingToDynamicData_WPF.csproj", "{BF2117FF-27D5-446D-ABDE-227CB4E7BA67}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadContextMenuAndRadGridViewMVVM_WPF", "RadContextMenuAndRadGridViewMVVM\RadContextMenuAndRadGridViewMVVM_WPF.csproj", "{EA6210CC-9DCF-4918-9A5C-C534B2EF57A6}"
@@ -9,8 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadContextMenuForRadGridVie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonsAndContextMenu_WPF", "ButtonsAndContextMenu\ButtonsAndContextMenu_WPF.csproj", "{B8501E65-6F0A-4BF3-B295-F1895EA531A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadContextMenuFlag_WPF", "RadContextMenuFlag_WPF\RadContextMenuFlag_WPF.csproj", "{F7900FCF-39FB-4E86-95F8-779BF03E6990}"
+EndProject
 Global
-	 
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -32,8 +35,15 @@ Global
 		{B8501E65-6F0A-4BF3-B295-F1895EA531A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8501E65-6F0A-4BF3-B295-F1895EA531A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8501E65-6F0A-4BF3-B295-F1895EA531A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7900FCF-39FB-4E86-95F8-779BF03E6990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7900FCF-39FB-4E86-95F8-779BF03E6990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7900FCF-39FB-4E86-95F8-779BF03E6990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7900FCF-39FB-4E86-95F8-779BF03E6990}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE55900E-3AEF-4AFB-96E8-36F871E3602D}
 	EndGlobalSection
 EndGlobal

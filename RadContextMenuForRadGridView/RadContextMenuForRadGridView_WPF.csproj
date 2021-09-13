@@ -78,6 +78,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ExtendedContextMenu.cs" />
     <Compile Include="RadGridViewSampleData.cs" />
     <Page Include="Example.xaml">
       <SubType>Designer</SubType>
